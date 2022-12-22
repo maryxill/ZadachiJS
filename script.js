@@ -4,10 +4,11 @@
 let opearation;
 
 
-console.log(`opearation1 = ${7 + 2} 
-opearation2 = ${7 - 3} 
-opearation3 = ${2 * 4}
-opearation4 = ${4 / 2}`)
+let a1 = 7 + 2
+let a2 = 7 -3
+let a3 = 2 * 4
+let a4 = 4 / 2 
+console.log(`a1 = ${a1}, a2 = ${a2}, a3 = ${a3}, a4 = ${a4}`)
 
 //№2
 
@@ -17,25 +18,25 @@ console.log(`s = ${height * width}`)
 
 
 //№3
-console.log(`opearation5 = ${5 % 3} 
-opearation6 = ${3 % 5} 
-opearation7 = ${5 + '3'}
-opearation8 = ${'5' - 3}
-opearation9 = ${75 + 'кг'}`)
+
+let b1 = 5 % 3
+let b2 = 3 % 5
+let b3 = 5 + '3'
+let b4 = 75 + 'кг'
+console.log(`b1 = ${b1}, b2 = ${b2}, b3 = ${b3}, b4 = ${b4}`)
 
 //№4
 
 let heightC = 10, dc = 4/2,v;
 v = 3.14 * dc**2*heightC;
-console.log(v);
+console.log(`v = ${v}`);
 
 
 //№5
 
-console.log(`opearation10 = ${10 + 2 + ` сумма`} 
-opearation11 = ${10 - 2 + ` разность`} 
-opearation12 = ${10 * 2 + ` произведение`}
-opearation13 = ${10 / 2 + ` частное`}`)
+let a5 = 10
+let b5 = 2
+console.log(`сумма = ${a5 + b5}, разность = ${a5 - b5}, произведение = ${a5 * b5}, частное = ${a5 / b5}`)
 
 
 //№6
@@ -43,21 +44,25 @@ opearation13 = ${10 / 2 + ` частное`}`)
 let c = 15
 let d = 2
 let result = c + d
-console.log(result)
+console.log(`result = ${result}`)
 
 
 //№7
 
-console.log(`opearation14 = ${10 + 2 + 5 + `сумма`}`)
+let a7 = 10
+let b7 = 2
+let c7 = 5
+console.log(`сумма переменных = ${a7 + b7 + c7}`)
 
 
 //№8
 
-let a = 17, b = 10, c2, d2 = 7, result2;
-c2 = a - b;
-d2 = 7;
-result = c2 + d2;
-console.log(result2);
+let a8 = 17
+let b8 = 10
+let c8 = a8 - b8
+let d8 = 7
+let result8 = c8 + d8
+console.log(`значение переменной result = ${result}`)
 
 
 //№9
